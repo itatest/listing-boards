@@ -1,0 +1,23 @@
+I, [2015-12-30T16:16:01.607922 #4910]  INFO -- : Refreshing Gem list
+I, [2015-12-30T16:16:06.596860 #4910]  INFO -- : listening on addr=/tmp/unicorn.sock fd=11
+I, [2015-12-30T16:16:06.598304 #4910]  INFO -- : listening on addr=0.0.0.0:13000 fd=12
+I, [2015-12-30T16:16:07.014390 #4913]  INFO -- : worker=0 ready
+I, [2015-12-30T16:16:07.017722 #4910]  INFO -- : master process ready
+I, [2015-12-30T16:16:07.025459 #4916]  INFO -- : worker=1 ready
+I, [2015-12-30T16:16:07.039414 #4919]  INFO -- : worker=2 ready
+Unicorn master intercepting TERM and sending myself QUIT instead
+Unicorn worker intercepting TERM and doing nothing. Wait for master to send QUIT
+Unicorn worker intercepting TERM and doing nothing. Wait for master to send QUIT
+Unicorn worker intercepting TERM and doing nothing. Wait for master to send QUIT
+I, [2015-12-30T16:17:41.080339 #4910]  INFO -- : reaped #<Process::Status: pid 4913 exit 0> worker=0
+I, [2015-12-30T16:17:41.186828 #4910]  INFO -- : reaped #<Process::Status: pid 4916 exit 0> worker=1
+I, [2015-12-30T16:17:41.187131 #4910]  INFO -- : reaped #<Process::Status: pid 4919 exit 0> worker=2
+I, [2015-12-30T16:17:41.187746 #4910]  INFO -- : master complete
+I, [2015-12-31T01:17:13.566728 #1803]  INFO -- : Refreshing Gem list
+I, [2015-12-31T01:17:20.516926 #1803]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2015-12-31T01:17:20.518554 #1803]  INFO -- : listening on addr=/tmp/unicorn.sock fd=11
+I, [2015-12-31T01:17:20.520519 #1803]  INFO -- : listening on addr=0.0.0.0:13000 fd=12
+I, [2015-12-31T01:17:21.083272 #1803]  INFO -- : master process ready
+I, [2015-12-31T01:17:21.087440 #1806]  INFO -- : worker=0 ready
+I, [2015-12-31T01:17:21.100207 #1809]  INFO -- : worker=1 ready
+I, [2015-12-31T01:17:21.111161 #1812]  INFO -- : worker=2 ready
